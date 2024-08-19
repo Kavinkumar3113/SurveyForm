@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(to bottom, rgba(50,50,125,0.85), rgba(100,100,250, 0.75)), url(https://raw.githubusercontent.com/lasjorg/fcc-form-example-image/master/67103817-7c51e200-f18b-11e9-975f-f74561336a9a-lj.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-origin: left;
+}
+form {
+  width: 50%;
+  position: relative;
+  background: rgba(100,100,250, 0.7);
+  border-radius: 10px;
+  bakground-blend-mode: overlay;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  }
+
+span {
+  font-size: 0.85rem;
+}
+.checkbox {
+  display: flex;
+  flex-flow: column;
+  /*border: solid red 3px;*/
+  width: 85%;
+}
+
+.surveyQuestion {
+  /*border: solid red 3px;*/
+  width: 85%;
+}
+
+.editField {
+  border-radius: 5px;
+  width: 85%;
+}
+#submit {
+  width: 85%;
+  height: 45px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  background-color: lightgreen;
+}
+#commentField {
+  width: 98%;
+  height: 100px;
+}
+.header {
+  padding: 0px;
+  margin: 0px;
+}
+h1 {
+  padding: 0px;
+  margin-bottom: -20px;
+}
+#description {
+  font-style: italic;
+}
+
